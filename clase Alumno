@@ -1,0 +1,25 @@
+package com.example.customlistviewapp;
+
+public class Alumno {
+    private String nombre;
+    private String carrera;
+    private int imagenResId;
+
+    public Alumno(String nombre, String carrera, int imagenResId) {
+        this.nombre = nombre;
+        this.carrera = carrera;
+        this.imagenResId = imagenResId;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getCarrera() {
+        return carrera;
+    }
+
+    public int getImagenResId() {
+        return imagenResId;
+    }
+}
